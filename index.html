@@ -9,6 +9,80 @@
 
 	<style>
 
+	body{
+			background-color: #F2F2F2;
+			background-image: url(img/background.gif);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			font-family: 'Mali', cursive;
+		}
+
+		#container{
+			width: 1000px;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #D9D5F2;
+			border-radius: 2%;
+			border: 2px solid #A092AD;
+		}
+
+		.clearfloat{
+			clear: both;
+		}
+
+		.header{
+			text-align: center;
+		}
+
+		h1{
+			padding-top: 20px;
+			margin: 0px;
+			text-shadow: white 2px 2px 0px;
+		}
+
+		h3{
+			margin-top: 5px;
+			text-shadow: white 2px 2px 0px;
+		}
+
+		.mainpic{
+			text-align: center;
+		}
+
+		.main{
+			width: 500px;
+			height: 500px;
+			border-radius: 10%;
+			border: 4px solid #A092AD;
+		}
+
+		.bottompics{
+			text-align: center;
+			padding: 20px;
+		}
+
+		.pics:hover{
+			transform: scale(0.9);
+			cursor: pointer;
+		}
+
+		.pics{
+			width: 230px;
+			height: 230px;
+			margin: 10px;
+			border-radius: 10%;
+			border: 4px solid #A092AD;
+			transition: all 0.5s;
+		}
+
+		.footer{
+			text-align: center;
+			margin: 10px;
+			padding-bottom: 20px;
+		}
+
 	</style>
 </head>
 
@@ -19,6 +93,23 @@
 			<h1>Happy Mother's Day</h1>
 			<h3>a photo gallery of some of my favorite memories of us!</h3>
 		</div> <!-- header -->
+
+		<div class="mainpic">
+			<img src="img/ses1.jpg" alt="ocean sesame" class="main">
+		</div> <!-- mainpic -->
+
+		<div class="bottompics">
+		<img src="img/ses1.jpg" id="ses1" alt="ocean sesame" class="pics">
+		<img src="img/ses2.jpg" id="ses2" alt="ball sesame" class="pics">
+		<img src="img/ses3.jpg" id="ses3" alt="car sesame" class="pics">
+		<img src="img/ses4.jpg" id="ses4" alt="grass sesame" class="pics">
+		<img src="img/ses5.jpg" id="ses5" alt="apple sesame" class="pics">
+		<img src="img/ses6.jpg" id="ses6" alt="rainbow sesame" class="pics">
+	</div> <!-- bottompics -->
+
+	<div class="footer">
+		<p>there is nothing truer in the world than the love of a good dog. :)</p>
+	</div> <!-- footer -->
 
 	</div><!-- container -->
 
